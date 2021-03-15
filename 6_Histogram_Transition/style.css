@@ -1,0 +1,27 @@
+body{
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+}
+
+#chart{
+  margin: 25px auto;
+  width: 800px;
+}
+
+.bar-labels{
+  text-anchor: middle;
+  font-size: 16px;
+  
+}
+
+select {
+  margin: 25px auto 0;
+  display: block;
+  font-size: 20px;
+}
+
+.mean-line {
+  stroke: #d62828;
+  stroke-dasharray: 2,8;
+  stroke-width: 2px;
+}
